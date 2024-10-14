@@ -1,4 +1,3 @@
-
 def foydalanuvchi_info(ism, familiya, tugilgan_yil, tugilgan_joy,email,telefon):
     foydalanuvchi = {
         'ism': ism,
