@@ -11,8 +11,20 @@ sonlar1 = -7, 7, 77
 
 print("yigindi", kopaytma(*sonlar1))
 
-
 # 2
+def kvadratlar(son1, son2, son3, *qolgan_sonlar):
+    kvadratlar_royhati = [son1**2, son2**2, son3**2]
+
+    for son in qolgan_sonlar:
+        kvadratlar_royhati.append(son**2)
+
+    return kvadratlar_royhati
+
+
+result = kvadratlar(9, 3, 3, 4, 5, 6)
+print(result)
+
+# 3
 
 
 def talaba_malumotlari(ism, familiya, **malumotlar):
